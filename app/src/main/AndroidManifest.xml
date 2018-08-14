@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="id.chacha.desain">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.MainActivity" />
+        <activity android:name=".activity.DashboardActivity" />
+        <activity android:name=".activity.CalculatorActivity" />
+        <activity android:name=".activity.MessageBoxActivity" />
+        <activity android:name=".activity.MessageInputActivity" />
+        <activity android:name=".activity.SpinnerCombolistActivity" />
+        <activity android:name=".activity.PopupMenuShareOptionActivity" />
+        <activity android:name=".activity.MultipleActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.halaman.Halaman1" />
+        <activity android:name=".activity.halaman.Halaman2" />
+        <activity android:name=".activity.halaman.Halaman3" />
+        <activity android:name=".activity.halaman.Halaman4" />
+        <activity android:name=".activity.PerhitunganActivity" />
+        <activity android:name=".activity.MusikPlayerSederhanaActivity" />
+        <activity android:name=".activity.PlayerVideosActivity" />
+        <activity android:name=".activity.halaman.Halaman5" />
+        <activity android:name=".activity.halaman.Halaman6" />
+        <activity android:name=".activity.portal_berita.BeritaUtama" />
+        <activity android:name=".activity.portal_berita.DetailBerita" />
+        <activity android:name=".activity.halaman.Halaman7" />
+        <activity android:name=".activity.halaman.Halaman8" />
+        <activity android:name=".activity.DetailActivity"></activity>
+    </application>
+
+</manifest>

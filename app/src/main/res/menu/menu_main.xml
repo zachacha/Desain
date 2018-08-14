@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/action_setting"
+        android:title="Setting"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menuSatu"
+        android:title="Menu Satu" />
+
+    <item
+        android:id="@+id/menuDua"
+        android:title="Menu Dua" />
+
+    <item
+        android:id="@+id/menuTiga"
+        android:title="Menu Tiga" />
+
+    <item
+        android:id="@+id/shareItem"
+        android:title="Share"
+        android:actionProviderClass="android.widget.ShareActionProvider"/>
+
+</menu>
